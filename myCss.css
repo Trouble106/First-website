@@ -1,0 +1,155 @@
+body {
+  width: 1024px;
+  border: solid 1px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  background-color: #030a12;
+}
+
+#menu ul li {
+  list-style: none;
+  background-color: #030a12;
+  width: 174px;
+}
+#body ul li a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 40px 1px;
+  font-style: white;
+  color: white;
+  font-family: "Elle NovaC";
+  font-size: 9mm;
+}
+#menubar {
+  padding-left: 0;
+  height: 400px;
+  margin-top: 0;
+}
+#body {
+  padding-top: 0;
+}
+div .contentbody {
+  width: 850px;
+  float: left;
+  margin: 0 auto;
+}
+#menu {
+  float: left;
+}
+div .contentbody #content img {
+  width: 350px;
+  height: 350px;
+}
+.contentbody #content {
+  margin: 0 auto;
+  width: 705px;
+}
+#firstrow {
+  width: 710px;
+}
+
+#secondrow {
+  width: 710px;
+}
+/* Khoảng cách body tới banner */
+.contentbody {
+  padding-top: 80px;
+}
+@font-face {
+  font-family: "Sophia Martini";
+  src: url("font/Sophia-Martini.otf");
+}
+
+@font-face {
+  font-family: "myramid Pro";
+  src: url("font/myriad-pro-cufonfonts/MYRIADPRO-COND.OTF");
+}
+@font-face {
+  font-family: "Elle NovaC";
+  src: url("font/Elle-Novac.ttf");
+}
+@font-face {
+  font-family: "Autumn Chant";
+  src: url("font/Autumn-Chant.otf");
+}
+@font-face {
+  font-family: "Avenir Next";
+  src: url("font/AvenirNextLTPro-Regular.otf");
+}
+@font-face {
+  font-family: "UTM Neutra";
+  src: url("font/UTM\ Neutra.ttf");
+}
+h3 {
+  font-family: "Elle NovaC";
+}
+#content blockquote img {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#content blockquote {
+  color: white;
+}
+p#type {
+  font-family: "Elle NovaC";
+  font-size: 10mm;
+}
+p#foodname {
+  font-family: "Avenir Next";
+
+  font-size: 9mm;
+}
+p {
+  font-family: "Avenir Next";
+  font-size: 8mm;
+  color: white;
+}
+p#time {
+  font-family: "myramid Pro";
+  font-size: 8mm;
+}
+div #firstinput {
+  color: #030a12;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: left;
+}
+#firstinput textarea {
+  width: 350px;
+  height: 200px;
+  border: 0px;
+  margin: 0;
+  padding: 0;
+}
+#secondinput textarea {
+  width: 705px;
+  height: 500px;
+  border: 0px;
+  margin: 0;
+  padding: 0;
+}
+#secondinput {
+  margin: 0 auto;
+  
+}
+/* Màu của nút submit */
+button {
+  font-family: "Avenir Next";
+  font-size: 5mm;
+  width: 50mm;
+  height: 10mm;
+  background-color: #030a12;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#secondinput img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
