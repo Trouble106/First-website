@@ -13,7 +13,7 @@ body {
 }
 #body ul li a {
   text-decoration: none;
-  text-align: center;
+  text-align: left;
   display: block;
   padding: 40px 1px;
   font-style: white;
@@ -54,7 +54,7 @@ div .contentbody #content img {
 }
 /* Khoảng cách body tới banner */
 .contentbody {
-  padding-top: 80px;
+  padding-top: 20px;
 }
 @font-face {
   font-family: "Sophia Martini";
@@ -99,17 +99,20 @@ p#type {
 }
 p#foodname {
   font-family: "Avenir Next";
-
   font-size: 9mm;
 }
 p {
   font-family: "Avenir Next";
-  font-size: 8mm;
+  font-size: 6mm;
   color: white;
 }
 p#time {
   font-family: "myramid Pro";
   font-size: 8mm;
+}
+p#contact {
+	font-family: "UTM Neutra";
+	font-size: 9mm;
 }
 div #firstinput {
   color: #030a12;
@@ -119,31 +122,36 @@ div #firstinput {
   float: left;
 }
 #firstinput textarea {
-  width: 350px;
+  width: 348px;
+  height: 50px;
+  border: 0px;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  border: solid 1px white;
+}
+#secondinput textarea {
+  width: 703px;
   height: 200px;
   border: 0px;
   margin: 0;
   padding: 0;
-}
-#secondinput textarea {
-  width: 705px;
-  height: 500px;
-  border: 0px;
-  margin: 0;
-  padding: 0;
+  background-color: black;
+  color: white;
+  border: solid 1px white;
 }
 #secondinput {
   margin: 0 auto;
-  
 }
 /* Màu của nút submit */
 button {
   font-family: "Avenir Next";
+  color: white; 
   font-size: 5mm;
   width: 50mm;
   height: 10mm;
-  background-color: #030a12;
-  color: white;
+  background-color: black;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -152,4 +160,16 @@ button {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+footer {
+  color: white;
+  height: 100px;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  clear: both;
+  vertical-align: middle;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
 }
